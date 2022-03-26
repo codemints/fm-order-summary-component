@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="variables.css">
+  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+  <title>Order Summary</title>
+</head>
+<body class="[ flex flex--center ]">
+  <main class="[ card ]">
+    <article class="[ card__img ]">
+      <img class="[ push--center ]" src="./img/illustration-hero.svg" alt="illustration of person dancing with headphones one">
+    </article>
+    <section class="[ flow-lg ] [ card__content ]">
+      <article class="[ flow-sm ]">
+        <h1>Order Summary</h1>
+        <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+      </article>
+      <section class="[ flex radius--md ] [ plan-details ]">
+        <div class="[ flex text--left ] [ plan-details__pricing ]">
+          <img src="./img/icon-music.svg" alt="a music icon">
+          <div>
+            <h2>Annual Plan</h2>
+            <p>$59.99/year</p>
+          </div>
+        </div>
+        <button class="[ button ] [ push--right ]" data-button="link">Change</button>
+      </section>
+      <article class="[ flow-lg ] [ flex ] [ card__buttons ]">
+        <button class="[ button ] [ radius--md ]" data-button="primary">Proceed to Payment</button>
+        <button class="[ button ]" data-button="naked">Cancel Order</button>
+      </article>
+    </section>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
