@@ -1,7 +1,7 @@
 # Simple Order Summary Component
 Frontend Masters Order Summary Component Project
 
-##Technologies & Principals
+## Technologies & Principals
 - HTML5
 - CSS3
 - JavaScript
